@@ -20,7 +20,7 @@ body {
   align-items: center;
   background: #0d192c;
   font-family: 'Outfit', sans-serif;
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
 }
 
 a {
@@ -36,8 +36,6 @@ main {
 }
 
 .pic-wrapper {
-  max-width: 300px;
-  max-height: 300px;
   position: relative;
   background-color: cyan;
   border-radius: 10px;
@@ -50,11 +48,6 @@ main {
   border-radius: 8px;
 }
 
-.background-div {
-  max-width: 299px;
-  max-height: 299px;
-  background-color: cyan;
-}
 .pic-link:hover {
   opacity: 0.5;
 }
@@ -102,9 +95,8 @@ p {
 .price {
   color: cyan;
   font-weight: 600;
-  /* margin-left: 4px; */
 }
-.time {
+.time-icon {
   color: #8bacd9;
 }
 .creator-container {
@@ -124,4 +116,10 @@ p {
 }
 .name {
   color: white;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 0 1.5rem;
+  }
 }
