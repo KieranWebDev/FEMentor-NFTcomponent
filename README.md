@@ -48,7 +48,7 @@ Users should be able to:
 
 - A quick project where I had fun getting more reps in building from a design spec.
 
-- I had a but of trouble getting the hover effects to match the design brief. After some googling I discovered that it's possible to add selectors after the `:hover` pseudo selector in order to be more specific with the properties I wished to change
+- I had a bit of trouble getting the hover effects to match the design brief. After some googling I discovered that it's possible to add selectors after the `:hover` pseudo selector in order to be more specific with the properties I wished to change
 
 ```
 .pic-wrapper:hover .eye-icon {
